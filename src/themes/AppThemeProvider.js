@@ -25,7 +25,7 @@ const theme = createTheme({
                     px: 1,
                 },
                 variant: 'subtitle2',
-                textTransform: 'capitalize',
+                // textTransform: 'capitalize',
             },
         },
         MuiStack: {
