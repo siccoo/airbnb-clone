@@ -10,7 +10,7 @@ import { flexCenter } from "../themes/commonStyles";
 const ProfileSettings = () => {
   return (
     <Box sx={flexCenter}>
-      <Link href="#"> Become A Host</Link>
+      <Link href="#"> Become a Host</Link>
       <Stack>
         <Button>
           <BsGlobe size={24} />
