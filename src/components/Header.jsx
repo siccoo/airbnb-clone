@@ -1,5 +1,4 @@
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
+import { Box, Container } from "@mui/material";
 
 // components
 import Logo from "./Logo";
@@ -38,7 +37,7 @@ const Header = () => {
           <Box sx={displayOnDesktop}>
             <ProfileSettings />
           </Box>
-          <Box sx={{ display: { xs: "flex", md: "none",  } }}>
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <MobileSearch />
           </Box>
         </Box>
