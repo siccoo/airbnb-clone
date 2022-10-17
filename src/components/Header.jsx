@@ -4,6 +4,7 @@ import Container from '@mui/material/Container';
 
 // components
 import Logo from './Logo';
+import LocationSearch from './LocationSearch';
 import {
   flexBetweenCenter,
   dFlex,
@@ -28,6 +29,7 @@ const Header = () => {
         >
           <Box>
             <Logo />
+            <LocationSearch />
           </Box>
         </Box>
       </Container>
