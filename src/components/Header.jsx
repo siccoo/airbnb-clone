@@ -1,10 +1,10 @@
-import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
 // components
 import Logo from './Logo';
 import LocationSearch from './LocationSearch';
+import ProfileSettings from './ProfileSettings';
 import {
   flexBetweenCenter,
   dFlex,
@@ -27,10 +27,9 @@ const Header = () => {
             px: 4,
           }}
         >
-          <Box>
             <Logo />
             <LocationSearch />
-          </Box>
+            <ProfileSettings />
         </Box>
       </Container>
     </Box>

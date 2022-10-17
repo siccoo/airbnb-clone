@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Button, Divider, Stack, Paper, Typography, Box } from "@mui/material";
 
 // react-icons
