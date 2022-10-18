@@ -4,6 +4,7 @@ import { Box, CssBaseline, Container } from "@mui/material";
 import Header from "./components/Header";
 import OptionsTab from "./components/OptionsTab";
 import LocationCards from "./components/LocationCards";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
             >
             </Box>
           </Container>
+        </Box>
+        <Box>
+          <Footer />
         </Box>
       </Box>
     </>

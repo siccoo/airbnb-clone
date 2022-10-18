@@ -102,6 +102,7 @@ const CarouselCard = ({ location }) => {
       <Box sx={flexBetween}>
         <Box sx={{ mt: 2 }}>
           <Typography component="h3"> {location.location}</Typography>
+          <Typography component="h3"> {location.author}</Typography>
           <Typography component="h4"> {location.days}</Typography>
           <Typography component="h5"> {location.price}</Typography>
         </Box>
