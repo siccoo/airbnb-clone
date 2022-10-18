@@ -37,7 +37,6 @@ function App() {
                 display: { xs: 'flex', md: 'none' },
               }}
             >
-              {/* <MobileFooter /> */}
             </Box>
           </Container>
         </Box>
