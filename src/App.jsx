@@ -4,6 +4,7 @@ import { Box, CssBaseline, Container } from "@mui/material";
 import Header from "./components/Header";
 import OptionsTab from "./components/OptionsTab";
 import LocationCards from "./components/LocationCards";
+import MobileFooter from "./components/MobileFooter";
 import FooterMenu from "./components/FooterMenu";
 import Footer from "./components/Footer";
 
@@ -41,6 +42,7 @@ function App() {
                 display: { xs: 'flex', md: 'none' },
               }}
             >
+              <MobileFooter />
             </Box>
           </Container>
         </Box>
