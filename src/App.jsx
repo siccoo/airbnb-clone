@@ -4,7 +4,10 @@ import { Box, CssBaseline, Container } from "@mui/material";
 import Header from "./components/Header";
 import OptionsTab from "./components/OptionsTab";
 import LocationCards from "./components/LocationCards";
+import FooterMenu from "./components/FooterMenu";
 import Footer from "./components/Footer";
+
+import { displayOnDesktop } from "./themes/commonStyles";
 import "./App.css";
 
 function App() {
@@ -41,7 +44,10 @@ function App() {
             </Box>
           </Container>
         </Box>
-        <Box>
+        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+          <FooterMenu />
+        </Box>
+        <Box sx={displayOnDesktop}>
           <Footer />
         </Box>
       </Box>
