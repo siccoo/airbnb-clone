@@ -7,7 +7,7 @@ const theme = createTheme({
         allVariants: {
             fontFamily: 'Raleway',
             textTransform: 'none',
-            fontSize: 15,
+            fontSize: 13,
         },
     },
     palette: {

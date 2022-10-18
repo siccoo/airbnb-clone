@@ -22,7 +22,7 @@ const OptionsTab = () => {
           flexGrow: 1,
           px: { xs: 0, md: 2 },
           alignItems: "center",
-          mt: 2,
+          mt: 1,
           mb: 2,
         }}
       >
@@ -36,6 +36,7 @@ const OptionsTab = () => {
               "&.Mui-disabled": { opacity: 0.3 },
             },
           }}
+          
         >
           {locationsTab.map((tab) => {
             return <Tab key={tab.id} icon={tab.icon} label={tab.label} />;

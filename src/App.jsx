@@ -20,8 +20,25 @@ function App() {
         <Box>
           <Header />
           <OptionsTab />
+        </Box>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            flexGrow: 1,
+            height: 100,
+            overflowY: 'scroll',
+          }}
+        >
           <Container maxWidth="xl" sx={{ mb: 3 }}>
             <LocationCards />
+            <Box
+              sx={{
+                display: { xs: 'flex', md: 'none' },
+              }}
+            >
+              {/* <MobileFooter /> */}
+            </Box>
           </Container>
         </Box>
       </Box>
